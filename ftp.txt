@@ -1,0 +1,113 @@
+Frame 58516: Packet, 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface \Device\NPF_{8EBB8FAE-9A55-4DE9-8ED9-510784F50EA7}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{8EBB8FAE-9A55-4DE9-8ED9-510784F50EA7})
+        Interface name: \Device\NPF_{8EBB8FAE-9A55-4DE9-8ED9-510784F50EA7}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 16:22:59.286416900 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 09:22:59.286416900 UTC
+    Epoch Arrival Time: 1791883379.286416900
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 98.300 microseconds]
+    [Time delta from previous displayed frame: 168.500 microseconds]
+    [Time since reference or first frame: 5 minutes, 22.310349600 seconds]
+    Frame Number: 58516
+    Frame Length: 80 bytes (640 bits)
+    Capture Length: 80 bytes (640 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ftp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: CloudNetwork_ad:74:21 (4c:23:38:ad:74:21), Dst: VMware_b5:55:03 (00:50:56:b5:55:03)
+    Destination: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: CloudNetwork_ad:74:21 (4c:23:38:ad:74:21)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 189]
+Internet Protocol Version 4, Src: 10.252.131.26, Dst: 202.9.85.80
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 66
+    Identification: 0xa15a (41306)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0xabeb [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.131.26
+    Destination Address: 202.9.85.80
+    [Stream index: 814]
+Transmission Control Protocol, Src Port: 52065, Dst Port: 21, Seq: 735, Ack: 1692, Len: 26
+    Source Port: 52065
+    Destination Port: 21
+    [Stream index: 100]
+    [Stream Packet Number: 84]
+    [Conversation completeness: Incomplete, DATA (15)]
+        ..0. .... = RST: Absent
+        ...0 .... = FIN: Absent
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ··DASS]
+    [TCP Segment Len: 26]
+    Sequence Number: 735    (relative sequence number)
+    Sequence Number (raw): 1043635450
+    [Next Sequence Number: 761    (relative sequence number)]
+    Acknowledgment Number: 1692    (relative ack number)
+    Acknowledgment number (raw): 678401230
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 254
+    [Calculated window size: 65024]
+    [Window size scaling factor: 256]
+    Checksum: 0xef75 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 11.711751500 seconds]
+        [Time since previous frame in this TCP stream: 168.500 microseconds]
+    [SEQ/ACK analysis]
+        [This is an ACK to the segment in frame: 58513]
+        [The RTT to ACK the segment was: 168.500 microseconds]
+        [iRTT: 12.019300 milliseconds]
+        [Bytes in flight: 26]
+        [Bytes sent since last PSH flag: 26]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (26 bytes)
+File Transfer Protocol (FTP)
+    RETR 03 Already Home.m4a\r\n
+        Request command: RETR
+        Request arg: 03 Already Home.m4a
+[Current working directory: /audio/A Great Big World - Is There Anybody Out There [2014] [iTunes Version] [M4A-256]-V3nom [GLT]]
+[Command response frames: 1865]
+[Command response bytes: 7603796]
+[Command response first frame: 58562]
+[Command response last frame: 63477]
+[Response duration: 2378ms]
+[Response bitrate: 25580Kbps]
+[Setup frame: 58492]
